@@ -1,6 +1,10 @@
 {
-    "version":2,
-    "name":"apiweb",
-    "builds":[{"src":"app.js","use":"@vercel/node"}],
-    "routes":[{"src":"/(.*)","dest":"/app.js"}]
-}
+    "version": 2,
+    "name": "api-beta",
+    "builds": [
+       { "src": "app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/app.js" }
+    ]
+ }
