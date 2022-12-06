@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-app.use("cors")
+app.use(cors())
 
 // (7) import routes
 const mahasiswaRoutes = require('./routes/mahasiswa')
